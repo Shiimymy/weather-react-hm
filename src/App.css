@@ -68,6 +68,10 @@ h2 {
   font-size: 70px;
 }
 
+h6 {
+  padding: 20px;
+}
+
 #weatherDetails {
   margin-bottom: 40px;
   font-weight: 900;
@@ -111,17 +115,22 @@ footer {
 
 .afternoon {
   font-weight: 700;
+  font-size: 22px;
 }
 
-.forecast-day {
+.day {
   font-size: 30px;
   font-weight: 500;
 
 }
 
-.temperatureWeekDay {
+.temperature {
   font-size: 20px;
   font-weight: 400;
+}
+
+.emojiDay {
+  margin: auto 0 0 15px 0;
 }
 
 #currentLocation {
@@ -156,10 +165,6 @@ footer {
   width: 150px;
 }
 
-#forecastIcon {
-  width: 85px;
-}
-
 @media screen and (max-width: 700px) {
   body {
     max-width: 98%;
@@ -183,7 +188,7 @@ footer {
     font-size: 20px;
   }
 
-  .temperatureWeekDay {
+  .temperature {
     font-size: 13px;
   }
 
@@ -192,7 +197,4 @@ footer {
     font-weight: 700;
   }
 
-  #forecastIcon {
-    width: 65px;
-  }
 }
